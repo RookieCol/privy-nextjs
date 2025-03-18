@@ -260,7 +260,7 @@ const FruitNinja: React.FC = () => {
     }
     
     // Update and draw fruits
-    fruitsRef.current = fruitsRef.current.filter((fruit, index) => {
+    fruitsRef.current = fruitsRef.current.filter((fruit) => {
       // Apply physics
       fruit.vy += gravity * dt;
       fruit.x += fruit.vx * dt;
@@ -285,7 +285,7 @@ const FruitNinja: React.FC = () => {
     });
     
     // Update and draw bombs
-    bombsRef.current = bombsRef.current.filter((bomb, index) => {
+    bombsRef.current = bombsRef.current.filter((bomb) => {
       // Apply physics
       bomb.vy += gravity * dt;
       bomb.x += bomb.vx * dt;
@@ -310,7 +310,7 @@ const FruitNinja: React.FC = () => {
     });
     
     // Update and draw sliced fruits
-    slicedsRef.current = slicedsRef.current.filter((sliced, index) => {
+    slicedsRef.current = slicedsRef.current.filter((sliced) => {
       // Apply physics
       sliced.vy += gravity * dt;
       sliced.x += sliced.vx * dt;
@@ -340,7 +340,7 @@ const FruitNinja: React.FC = () => {
     });
     
     // Update and draw explosions
-    explosionsRef.current = explosionsRef.current.filter((explosion, index) => {
+    explosionsRef.current = explosionsRef.current.filter((explosion) => {
       // Update explosion
       explosion.timeAlive += dt;
       
