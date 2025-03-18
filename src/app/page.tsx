@@ -7,10 +7,10 @@ const frame = {
   version: "next",
   imageUrl: `${appUrl}/opengraph-image.png`,
   button: {
-    title: "Yoink with an embedded wallet!",
+    title: "FRUIT NINJA →",
     action: {
       type: "launch_frame",
-      name: "Privy Frames v2 Demo",
+      name: "Fruit Ninja",
       url: appUrl,
       splashImageUrl: `${appUrl}/splash.png`,
       splashBackgroundColor: "#f7f7f7",
@@ -22,9 +22,9 @@ export const revalidate = 300;
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Privy Frames v2 Demo",
+    title: "Fruit Ninja",
     openGraph: {
-      title: "Privy Frames v2 Demo",
+      title: "Fruit Ninja",
       description: "A Privy Frames v2 demo app.",
     },
     other: {

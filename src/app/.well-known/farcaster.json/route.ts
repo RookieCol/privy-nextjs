@@ -15,9 +15,9 @@ export async function GET() {
       iconUrl: `${appUrl}/icon.png`,
       homeUrl: `${appUrl}`,
       imageUrl: `${appUrl}/icon.png`,
-      buttonTitle: "Yoink with an embedded wallet!",
+      buttonTitle: "FRUIT NINJA →",
       splashImageUrl: `${appUrl}/splash.png`,
-      splashBackgroundColor: "#5B4FFF",
+      splashBackgroundColor: "#f7f7f7",
     },
   };
 
