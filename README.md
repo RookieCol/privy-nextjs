@@ -1,16 +1,8 @@
-# Privy x Frames v2 Demo
-
-Source: https://github.com/farcasterxyz/frames-v2-demo
-
-This is an example [**Frame (v2)**](https://docs.farcaster.xyz/developers/frames/v2/) to demonstrate how you can use Frames alongside Privy's [**Farcaster login**](https://docs.privy.io/guide/guides/farcaster-login) feature to create novel, cross-app experiences for your users.
-
-When a user first opens this demo Frame in their Farcaster client a few things happen. Behind the scenes, Privy automatically logs the user in with their Farcaster account, creates an embedded wallet, and creates a smart account for interacting with the "Yoink!" contract. Users can then [Yoink](https://github.com/horsefacts/yoink) without paying for gas fees.
-
-This app is built with [NextJS](https://nextjs.org/), and makes uses of libraries like [`@farcaster/frame-sdk`](https://www.npmjs.com/package/@farcaster/frame-sdk) and [`viem`](https://viem.sh/) for interacting with the blockchain and the [Farcaster](https://www.farcaster.xyz/) protocol.
+# Fruit Ninja Frames Demo
 
 ## Live Demo
 
-To see this demo in action, share [`https://privy-frames-v2-demo.vercel.app/`](https://privy-frames-v2-demo.vercel.app/) in any Farcaster client that supports Frames (e.g. Warpcast) and interact with it.
+TODO
 
 ## Setup
 
@@ -19,7 +11,7 @@ To see this demo in action, share [`https://privy-frames-v2-demo.vercel.app/`](h
 2. Fork this repository, clone it, and open it in your command line:
 
 ```sh
-git clone https://github.com/<your-github-handle>/privy-frames-v2-demo
+git clone https://github.com/<your-github-handle>/fruit-ninja-frames-demo
 ```
 
 3. Install the necessary dependencies using your preferred package manager:
