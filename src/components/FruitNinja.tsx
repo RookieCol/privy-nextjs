@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+const appUrl = process.env.NEXT_PUBLIC_URL || "https://fruit-ninja-frames-demo.vercel.app";
+
 // Type definitions
 interface Fruit {
   x: number;
@@ -681,7 +683,7 @@ const FruitNinja: React.FC = () => {
         ) {
           console.log("Share button clicked!");
           // Open a share prompt or use the browser's share API if available
-          const link = encodeURIComponent('TODO');
+          const link = encodeURIComponent(appUrl);
           const text = `🍎🍊🍋🍉🍇🍓🍑🍍%0A%0AMy%20score%20on%20Fruit%20Ninja%20is%20${scoreRef.current}%0A%0ATry%20to%20beat%20my%20score%20here%3A%20${link}%20%0A%0A🍎🍊🍋🍉🍇🍓🍑🍍`
           const shareLink = `https://warpcast.com/~/compose?text=${text}`;
 
