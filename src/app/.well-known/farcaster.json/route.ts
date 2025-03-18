@@ -1,5 +1,5 @@
 export async function GET() {
-  const appUrl = process.env.NEXT_PUBLIC_URL;
+  const appUrl = process.env.NEXT_PUBLIC_URL || "https://fruit-ninja-frames-demo.vercel.app";
 
   const config = {
     "accountAssociation": {
